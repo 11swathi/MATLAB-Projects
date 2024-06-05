@@ -77,10 +77,8 @@ the first 100 images in the corresponding class (first 100 as ordered by the dat
 hoods to those in problem 3. Do they change? If so by how much. What could cause
 the change?
 
+
 ## Project 3
-
-
-## Project 4
 Use the DR Toolbox to generate a helix dataset with 2000 and 20000 points re-
 spectively. Compute 2-dimensional representations of this dataset by means of kPCA
 and Laplacian Eigenmaps. Measure time and deduce the order of computational
