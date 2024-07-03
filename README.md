@@ -73,8 +73,7 @@ the first 100 images in the corresponding class (first 100 as ordered by the dat
 11. Repeat problem 8 for the distance computed with the metric defined by ‖ · ‖1.
 
    
-12. Repeat problem 10 for the metric defined by ‖ · ‖1. Compare the new neighbor-
-hoods to those in problem 3. Do they change? If so by how much. What could cause
+12. Repeat problem 10 for the metric defined by ‖ · ‖1. Compare the new neighborhoods to those in problem 10. Do they change? If so by how much. What could cause
 the change?
 
 
@@ -85,3 +84,22 @@ and Laplacian Eigenmaps. Measure time and deduce the order of computational
 complexity of both algorithms.
 Describe the changes when size of data increases, as well as the impact of the size
 of data on the cost computations.
+
+
+## Project 4
+1. Suppose that a binary classification experiment with 100 total population
+(TP+TN+FP+FN), has precision (TP/(TP+FP)), sensitivity (TP/(TP+FN)), and
+specificity (TN/(FP+TN)) all equal to 0.8 (or 80%). Is it enough information to
+determine the accuracy of such experiment? Calculate the accuracy or provide a
+counterexample.
+
+
+2. Design an experiment which has sensitivity = 5/6, accuracy = 4/5, and
+specificity = 3/4, or prove that such an experiment cannot exist.
+
+
+
+3. (6 pts) Design experiments in which one of the 4 error measures (accuracy,
+precision, specificity, sensitivity) appears as a more suitable measure of success than
+the remaining 3. Do this for 3 out of the 4 measures (your choice which one to drop).
+Explain. 
